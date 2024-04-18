@@ -89,7 +89,7 @@ a {
 .link {
 	float: left;
 	padding: 10px;
-	border-bottom: 5px solid var(--nav-color);
+	border-bottom: 4px solid var(--nav-color);
 }
 
 .svg-link {
@@ -97,7 +97,7 @@ a {
 	padding-top: 6px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-bottom: 5px solid var(--nav-color);
+	border-bottom: 4px solid var(--nav-color);
 }
 
 .link:hover {
@@ -125,6 +125,7 @@ a {
 
 .section-title {
 	font-size: 32px;
+	padding: 5px;
 	border-bottom: 5px solid var(--accent-color);
 }
 
@@ -156,8 +157,7 @@ a {
 .footer {
 	text-align: center;
 	margin-top: 40px;
-	padding: 20px;
-	font-size: 12px;
+	padding: 40px;
 	background-color: var(--nav-color);
 	color: white;
 }
